@@ -1,0 +1,18 @@
+# Spring-2019-Final-Project-CIT-130
+ Panel panelButtons = new Panel(new GridLayout(4, 3));
+      panelButtons.setBackground(Color.red);
+      starNumbers = new Button[10];  // make 10 Buttons
+      starNumbers[1] = new Button("CPU/MEM");  // Construct Button "cpu"
+      starNumbers[1].setBackground(Color.red);
+      starNumbers[1].setForeground(Color.white);
+      panelButtons.add(starNumbers[1]);  // The Panel adds this Button
+      
+      setLayout(new BorderLayout());  // "super" Frame sets to BorderLayout
+      add(panelDisplay, BorderLayout.NORTH);
+      add(panelButtons, BorderLayout.CENTER);
+ 
+      setTitle("BorderLayout Demo"); // "super" Frame sets title
+      setSize(4000, 4000);             // "super" Frame sets initial size
+      setVisible(true);       
+      
+      my project is just an outline of the LCARS computer off of star trek. 
